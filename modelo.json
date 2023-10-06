@@ -1,82 +1,83 @@
 {
   "_index": "monitor-siebelpos-ordens",
   "_type": "_doc",
-  "_id": "c9bc736f334f7f06d46a8ff066784cbf732e053b6584374f1e74d083fcc140de",
-  "_version": 12,
+  "_id": "b41c254f8f94e4d5b03736b380467031ce340a516437f202186fe175ab2fde2f",
+  "_version": 1,
   "_score": 1,
   "_source": {
-    "sub_tipo_ordem": "Upgrade",
-    "divisao": "Default Organization",
+    "sub_tipo_ordem": "Migração Controle - Familia",
+    "divisao": "TIM Brasil",
     "tags": "siebelposcrmordemsblomsfull",
     "media_tempo_ordem_siebel": "ENTRE 1 A 4 SEG",
-    "segmento_pdv": null,
-    "criacao_ordem": "2023-09-26T18:03:57.000Z",
-    "pdv_hlr": null,
-    "origem_ordem": "REVENDAS",
-    "msisdn": "11949177230",
+    "segmento_pdv": "LOJA ONLINE",
+    "criacao_ordem": "2023-10-06T05:01:44.000Z",
+    "pdv_hlr": "9",
+    "origem_ordem": "SIEBEL_VENDAS",
+    "msisdn": "81997674958",
     "quant_envio": 0,
-    "canal_nvl": "REVENDAS",
+    "canal_nvl": "SIEBEL_VENDAS",
     "portabilidade": "N",
     "troca_chip": "N",
-    "@timestamp": "2023-10-06T05:06:06.560Z",
-    "tempo_ordem_total": 817264,
+    "@timestamp": "2023-10-06T05:06:06.477Z",
+    "tempo_ordem_total": 187,
     "ordem_composta": "N",
-    "ord_uf": "SP",
+    "ord_uf": "PE",
     "tempo_envio_oms": 0,
-    "chip_atual": "89550327001031594197",
+    "chip_atual": "89550318002935222993",
     "status_primeiro_envio_oms": null,
-    "name_pdv": "Siebel Administrator",
+    "name_pdv": "-81233",
     "motivo_troca": null,
-    "canal": "APP TIMVENDAS",
-    "canal_externo": "REVENDAS",
-    "cod_plano_antigo": "PLN582",
+    "canal": "REVENDA",
+    "canal_externo": null,
+    "cod_plano_antigo": "PLN527",
     "@version": "1",
     "cod_plano_novo": "PLN559",
     "reenvio": "N",
     "aparelho": "N",
-    "origem_id": "1-KD6GYSPU",
-    "criador_ordem": "SADMIN",
+    "origem_id": null,
+    "criador_ordem": "T3563303",
     "status_ultimo_retorno_oms": null,
     "numero_portado": null,
-    "data_atualizacao": "2023-10-06T05:05:44.000Z",
-    "num_ordem": "1-1595972982413",
-    "tipo_atendimento": null,
+    "data_atualizacao": "2023-10-06T05:05:43.000Z",
+    "num_ordem": "1-1597159652786",
+    "tipo_atendimento": "PDV",
     "plano_fidelizado": "Y",
-    "tempo_ordem_siebel": 817264,
-    "resp_ordem": "41044067837",
-    "tipo_ordem": "Migração Pós - Familia Master",
-    "pdv_crc": "Siebel Administrator",
+    "tempo_ordem_siebel": 187,
+    "resp_ordem": "T3563303",
+    "tipo_ordem": "Migração Controle - Familia Master",
+    "pdv_crc": "ALLIED TECNOLOGIA S.A.",
     "bilhete_port": null,
     "data_ultimo_retorno_oms": null,
     "segmento_novo_resumido": "POS_PAGO",
     "data_primeiro_envio_oms": null,
-    "ord_hlr": "15",
-    "nome_fantasia": null,
+    "ord_hlr": "9",
+    "nome_fantasia": "ALLIED TECNOLOGIA S.A.",
     "retentiva_correta": 0,
-    "atualizacao_ordem": "2023-10-06T05:05:01.000Z",
+    "geohash": "7nx4nq",
+    "atualizacao_ordem": "2023-10-06T05:04:51.000Z",
     "chip_novo": null,
     "segmento_novo": "POS_FAMILIA",
-    "sistema_orgem": "SOA378",
-    "co_id": "511406194",
+    "sistema_orgem": "SIEBEL_VENDAS",
+    "co_id": "507761527",
     "per_tempo_ordem_siebel": 0,
     "tempo_para_enviar_para_oms": 0,
-    "pdv_uf": null,
+    "pdv_uf": "PE",
     "per_tempo_oms": 0,
     "dias_pendente_portabilidade": 0,
-    "chave": "1-KD6H3UKT",
+    "chave": "1-KDQ3MBAQ",
     "indice": "2023.10.06",
-    "id_ordem": "1-KD6H3UKT",
+    "id_ordem": "1-KDQ3MBAQ",
     "janela_port": null,
     "delivery_ultimo_retorno_oms": null,
-    "documento_cliente": "05231696129",
+    "documento_cliente": "74627392400",
     "tempo_tramitacao_sbl_oms": 0,
     "retentiva_incorreta": 0,
     "omsitemstatus": null,
-    "status_ordem": "Pendente de Envio",
-    "dt_created": "2023-09-26T18:03:57.000Z",
+    "status_ordem": "Aberto",
+    "dt_created": "2023-10-06T05:01:44.000Z",
     "id_cx_promo": null,
     "pep": null,
-    "media_tempo_ordem_total": "MAIS QUE 2 DIAS",
+    "media_tempo_ordem_total": "ENTRE 2 A 5 MIN",
     "media_tempo_oms": "MENOS DE 1 SEG",
     "type": "CRM_VIEW_MONIT_ORDER_PRINCIPAL"
   },
@@ -88,7 +89,7 @@
       "N"
     ],
     "criacao_ordem": [
-      "2023-09-26T18:03:57.000Z"
+      "2023-10-06T05:01:44.000Z"
     ],
     "portabilidade": [
       "N"
@@ -100,52 +101,52 @@
       0
     ],
     "data_atualizacao": [
-      "2023-10-06T05:05:44.000Z"
+      "2023-10-06T05:05:43.000Z"
     ],
-    "origem_id": [
-      "1-KD6GYSPU"
+    "tipo_atendimento": [
+      "PDV"
     ],
     "num_ordem": [
-      "1-1595972982413"
+      "1-1597159652786"
+    ],
+    "geohash": [
+      "7nx4nq"
     ],
     "resp_ordem": [
-      "41044067837"
+      "T3563303"
     ],
     "ord_hlr": [
-      "15"
+      "9"
     ],
     "media_tempo_ordem_total": [
-      "MAIS QUE 2 DIAS"
+      "ENTRE 2 A 5 MIN"
     ],
     "id_ordem": [
-      "1-KD6H3UKT"
+      "1-KDQ3MBAQ"
     ],
     "pdv_crc": [
-      "Siebel Administrator"
+      "ALLIED TECNOLOGIA S.A."
     ],
     "atualizacao_ordem": [
-      "2023-10-06T05:05:01.000Z"
+      "2023-10-06T05:04:51.000Z"
     ],
     "tempo_ordem_siebel": [
-      817264
+      187
     ],
     "reenvio": [
       "N"
-    ],
-    "canal_externo": [
-      "REVENDAS"
     ],
     "indice": [
       "2023.10.06"
     ],
     "divisao": [
-      "Default Organization"
+      "TIM Brasil"
     ],
     "dt_created": [
-      "2023-09-26T18:03:57.000Z"
+      "2023-10-06T05:01:44.000Z"
     ],
     "documento_cliente": [
-      "05231696129"
+      "74627392400"
     ],
     "per_tempo_ordem_siebel": [
       0
@@ -154,19 +155,28 @@
       "siebelposcrmordemsblomsfull"
     ],
     "cod_plano_antigo": [
-      "PLN582"
+      "PLN527"
     ],
     "quant_envio": [
       0
     ],
     "status_ordem": [
-      "Pendente de Envio"
+      "Aberto"
+    ],
+    "pdv_uf": [
+      "PE"
     ],
     "media_tempo_ordem_siebel": [
       "ENTRE 1 A 4 SEG"
     ],
+    "pdv_hlr": [
+      "9"
+    ],
     "canal_nvl": [
-      "REVENDAS"
+      "SIEBEL_VENDAS"
+    ],
+    "nome_fantasia": [
+      "ALLIED TECNOLOGIA S.A."
     ],
     "media_tempo_oms": [
       "MENOS DE 1 SEG"
@@ -175,13 +185,13 @@
       0
     ],
     "tempo_ordem_total": [
-      817264
+      187
     ],
     "tempo_para_enviar_para_oms": [
       0
     ],
     "criador_ordem": [
-      "SADMIN"
+      "T3563303"
     ],
     "@version": [
       "1"
@@ -190,22 +200,22 @@
       "POS_FAMILIA"
     ],
     "canal": [
-      "APP TIMVENDAS"
+      "REVENDA"
     ],
     "msisdn": [
-      "11949177230"
+      "81997674958"
     ],
     "sub_tipo_ordem": [
-      "Upgrade"
+      "Migração Controle - Familia"
     ],
     "segmento_novo_resumido": [
       "POS_PAGO"
     ],
     "tipo_ordem": [
-      "Migração Pós - Familia Master"
+      "Migração Controle - Familia Master"
     ],
     "origem_ordem": [
-      "REVENDAS"
+      "SIEBEL_VENDAS"
     ],
     "plano_fidelizado": [
       "Y"
@@ -217,16 +227,19 @@
       "N"
     ],
     "chave": [
-      "1-KD6H3UKT"
+      "1-KDQ3MBAQ"
     ],
     "co_id": [
-      "511406194"
+      "507761527"
     ],
     "chip_atual": [
-      "89550327001031594197"
+      "89550318002935222993"
+    ],
+    "segmento_pdv": [
+      "LOJA ONLINE"
     ],
     "sistema_orgem": [
-      "SOA378"
+      "SIEBEL_VENDAS"
     ],
     "tempo_envio_oms": [
       0
@@ -235,13 +248,13 @@
       0
     ],
     "ord_uf": [
-      "SP"
+      "PE"
     ],
     "@timestamp": [
-      "2023-10-06T05:06:06.560Z"
+      "2023-10-06T05:06:06.477Z"
     ],
     "name_pdv": [
-      "Siebel Administrator"
+      "-81233"
     ],
     "cod_plano_novo": [
       "PLN559"
